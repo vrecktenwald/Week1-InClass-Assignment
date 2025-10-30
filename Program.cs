@@ -13,13 +13,13 @@ namespace TestProject
             //Console.Read(), Console.ReadKey(), or Console.ReadLine().
             Console.Write("Enter in a single character value for Console.Read():");
             int readValue = Console.Read();
-            Console.WriteLine($"You entered:" + (char)readValue + "\n");// Casting int to char to display the character entered
+            Console.WriteLine($"You entered: " + (char)readValue + "\n");// Casting int to char to display the character entered
             Console.ReadLine(); // Consumes the remaining newline character from the input buffer
 
             Console.Write("Enter a key to continue using Console.ReadKey():");
             //Assign a user entered value from Console.ReadKey() to a variable
             ConsoleKeyInfo readKey = Console.ReadKey(); // ReadKey() returns a ConsoleKeyInfo object
-            Console.WriteLine($"\nYou entered:" + readKey.KeyChar + "\n");
+            Console.WriteLine($"\nYou entered: " + readKey.KeyChar + "\n");
 
             Console.Write("Running Console.ReadLine(). Enter your name:");
             string readName = Console.ReadLine();
