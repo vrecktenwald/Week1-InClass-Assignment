@@ -25,7 +25,7 @@ namespace TestProject
             string readName = Console.ReadLine();
             Console.WriteLine($"Hello, {readName}!\n");
 
-            Console.WriteLine("Press any key to exit.");
+            Console.WriteLine("Press any key to exit. ");
             Console.ReadKey();
         }
     }
